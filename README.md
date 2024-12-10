@@ -2,6 +2,10 @@
 
 Welcome to **Music Storefront**! This is a web-based music store that allows users to explore and purchase musical instruments and accessories. It features a collection of both new and pre-owned products, product reviews, demos, and more.
 
+# URL
+
+- You can access the website using this link: https://aniket25042003.github.io/Music-Storefront/
+
 ## Features
 
 - **Home Page**: The landing page featuring a welcome message and links to browse different sections of the store.
