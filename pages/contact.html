@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Storefront - Contact Us</title>
+    <link rel="stylesheet" href="../assets/css/exstyles.css">
+    <link rel="stylesheet" href="../assets/css/contactstyle.css">
+    <script src="contactjava.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><div class="dropmenu"><a>Inventory</a>
+                    <div class="dropcont">
+                        <a href="../pages/inventory.html">New</a>
+                        <a href="../pages/inventoryused.html">Used</a>
+                    </div>
+                    </div>
+                    </li>
+                <li><a href="../pages/reviews.html">Reviews</a></li>
+                <li><a href="../pages/demos.html">Demos</a></li>
+                <li><a href="../pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <h1>Contact Us!</h1>
+    <br>
+    <h3>Got a question? We're here to help!</h3>
+    <p>Call us at 555-555-5555 or email us at musicstore@gmail.com.</p>
+    <p>For more in depth questions or requests, please fill out the form below and one of our team members will reach out to you shortly.</p>
+    <br>
+
+    <form>
+    <h2>Message Us!</h2>
+    <div class="formRow">
+        <label for="name">First Name*</label>
+        <input name="custName" id="fname" type="text" placeholder="First Name" />
+     </div>
+
+     <div class="formRow">
+        <label for="name">Last Name*</label>
+        <input name="custName" id="lname" type="text" placeholder="Last Name" />
+     </div>
+
+     <div class="formRow"> 
+        <label for="city"> Email*</label>
+        <input name="custemail" id="email" type="text" placeholder="Email" />
+     </div>
+     <div class="formRow">
+     <label for="commBox">Message*</label>
+        <textarea name="custExp" id="commBox"></textarea> 
+    </div>
+    <div id="buttons">
+        <input type="Submit" Value="Submit" onclick="ValidateEmail()" />
+        <input type="reset" value="Cancel" />
+    </div>
+</form>
+
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Music Storefront | All Rights Reserved</p>
+    </footer>
+
+</body>
